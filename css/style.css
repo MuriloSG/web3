@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #222; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff5722; 
+    text-decoration: underline;
+}
+
+.destinos {
+        margin-top: 20px;
+}
+
+.destino {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.destino img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.destino div {
+    padding: 10px;
+    text-align: left;
+}
+
+.destino h3 {
+    margin-top: 0;
+    color: #4caf50;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__item {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+.main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.gastronomia_title {
+    font-size: 2rem;
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+.gastronomia_description {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Sections */
+.gastronomia_section, .gastronomia_section_bebidas {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.gastronomia_title, .gastronomia_section_bebidas_title, .receitas_section_title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.gastronomia_list, .gastronomia_section_bebidas_list {
+    list-style: none;
+    padding: 0;
+}
+
+.gastronomia_item {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.gastronomia_item strong {
+    color: #4caf50;
+}
+
+.gastronomia_section_bebidas_description {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.receitas_section_list {
+    padding: 0;
+    list-style: decimal;
+    margin-left: 20px;
+}
+
+.receitas_section_list--ordered li {
+    margin-bottom: 10px;
+}
+
+.section__link {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section__link:hover {
+    color: #ff5722;
+    text-decoration: underline;
+}
+
+.festas, .manifestações, .lugares_culturais {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.festas h2, .manifestações h2, .lugares_culturais h2 {
+    font-size: 1.8rem;
+    color: #333;
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.festas p, .manifestações p, .lugares_culturais p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.festas ul, .manifestações ul, .lugares_culturais ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.festas li, .manifestações li, .lugares_culturais li {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+.festas li strong, .manifestações li strong, .lugares_culturais li strong {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.lugares_culturais ol {
+    padding-left: 20px;
+}
+
+.lugares_culturais li {
+    margin-bottom: 10px;
+}
+
+.festas a, .manifestações a, .lugares_culturais a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.festas a:hover, .manifestações a:hover, .lugares_culturais a:hover {
+    text-decoration: underline;
+}
+
+.formulario_contato label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.formulario_contato input, .formulario_contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.formulario_contato button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.formulario_contato button:hover {
+    background-color: #45a049;
+}
+
+.informacoes {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.informacoes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.informacoes li {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+.informacoes li strong {
+    color: #4caf50;
+}
+
+.redes_sociais {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-media a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #4caf50;
+}
